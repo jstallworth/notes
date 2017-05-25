@@ -300,7 +300,7 @@
 
     $(document).ready(function() {
 
-      // Initiaize the jQuery UI sortable function on the notes container. When the sorting event ends, call the reorderNotes dunction
+      // Initialize the jQuery UI sortable function on the notes container. When the sorting event ends, call the reorderNotes dunction
       $('#notes').sortable({placeholder: "ui-state-highlight", helper:'clone', stop: function() { reorderNotes()}});
 
       // Show the note editor when the '+' button is clicked
